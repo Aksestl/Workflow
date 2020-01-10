@@ -1,0 +1,11 @@
+@import url(../__number/request__number.css);
+@import url(../__phone/request__phone.css);
+
+.request__container_min{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}

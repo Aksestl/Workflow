@@ -1,0 +1,15 @@
+@import url(./__time/calendar__time.css);
+
+.calendar__day{
+    margin: 20px 10px;
+    height: 20px;
+    text-align: center;
+}
+
+.calendar__day:hover{
+
+    background-color: rgb(90, 115, 185);
+    border-radius: 10px;
+    cursor: pointer;
+
+}

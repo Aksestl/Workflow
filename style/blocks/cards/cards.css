@@ -1,0 +1,27 @@
+@import url(./card/card.css);
+
+.cards{
+    height: 90vh;
+    overflow: scroll;
+    overflow-x:hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards::-webkit-scrollbar {
+    width: 10px;
+}
+
+.cards::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background: rgb(90, 115, 185);
+    border-radius: 10px;
+}
+

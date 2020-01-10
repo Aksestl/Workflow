@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url(../vendor/normalize.css);
+@import url(../style/blocks/page/page.css);
+
+body{
+    background-color: whitesmoke;
+}

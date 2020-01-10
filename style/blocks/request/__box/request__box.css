@@ -1,0 +1,8 @@
+@import url(./__item/request__item.css);
+
+.request__box{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.calendar__hour{
+    width: 60%;
+    margin: 6px 10px;
+    height: 20px;
+    text-align: center;
+}
+
+.calendar__hour:hover{
+
+    background-color: rgb(90, 115, 185);
+    border-radius: 10px;
+
+}

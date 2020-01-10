@@ -1,0 +1,9 @@
+.pointer{
+    cursor: pointer;
+}
+
+.pointer:hover{
+  transition: ease-in .3s;
+  background-color: rgb(90, 115, 185, .3);
+  border-radius: 10px;
+}

@@ -1,0 +1,4 @@
+.calendar__days.calendar__days_open{
+    display: block;
+    list-style: none;
+}

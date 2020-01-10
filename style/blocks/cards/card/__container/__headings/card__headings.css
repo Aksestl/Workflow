@@ -1,0 +1,10 @@
+@import url(./__status/card__status.css);
+@import url(./__time/card__time.css);
+
+.card__headings{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-left: 0;
+}

@@ -1,0 +1,11 @@
+@import url(./__edit/card__edit.css);
+@import url(./__print/card__print.css);
+@import url(./__select/card__select.css);
+@import url(./__icon/card__icon.css);
+
+.card__tools{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    margin-right: 0;
+}

@@ -1,0 +1,7 @@
+@import url(./__container/request__container.css);
+@import url(./__box/request__box.css);
+
+.request{
+    display: flex;
+    flex-direction: column;
+}

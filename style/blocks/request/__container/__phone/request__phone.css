@@ -1,0 +1,15 @@
+.request__phone{
+    width: 45%;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+    background: white;
+    border-radius: 100px;
+    border: rgb(90, 115, 185) 2px solid;
+    outline: none;
+}
+
+.request__phone:focus{
+    border: rgb(207, 119, 37) 2px solid;
+}

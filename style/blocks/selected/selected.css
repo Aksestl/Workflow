@@ -1,0 +1,11 @@
+@import url(./__item/selected__item.css);
+@import url(./__items/selected__items.css);
+@import url(./__number/selected__number.css);
+
+.selected{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-right: 0;
+}

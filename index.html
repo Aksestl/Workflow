@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Aksenova Alena">
+  <title>Workflow</title>
+  <link rel="stylesheet" href="./style/index.css">
+
+
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <p class="header__item page__item">Администрирование</p>
+            <img class="header__item header__icon pointer" src="./images/user.png">
+            <a class="header__item page__item pointer" href="#">Логин пользователя</a>
+            <a class="header__item pointer" href="#"> <img class="header__icon pointer" src="./images/log_out.png"> </a> 
+        </header>
+
+        <section class="page__blocks">
+            <div class="calendar">
+                <a class="calendar__dropdown page__item pointer">Обращения ЦОВ</a>
+
+                <div class="calendar__container">
+                    <ul class="calendar__days"> 
+                        <li class="calendar__day page__item">1 августа</li>
+                        <li class="calendar__day page__item">2 августа</li>
+                        <li class="calendar__day page__item">3 августа</li>
+                        <li class="calendar__day page__item">4 августа</li>
+                        <li class="calendar__day page__item">5 августа</li>
+                        <li class="calendar__day page__item">6 августа</li>
+                        <li class="calendar__day page__item">7 августа</li>
+                        <li class="calendar__day page__item">8 августа</li>
+                        <li class="calendar__day page__item">9 августа</li>
+                        <li class="calendar__day page__item">10 августа</li>
+                        <li class="calendar__day page__item">11 августа</li>
+                        <li class="calendar__day page__item">12 августа</li>
+                        <li class="calendar__day page__item">13 августа</li>
+                        <li class="calendar__day page__item">14 августа</li>
+                        <li class="calendar__day page__item">15 августа</li>
+                        <li class="calendar__day page__item">16 августа</li>
+                        <li class="calendar__day page__item">17 августа</li>
+                        <li class="calendar__day page__item calendar__day-dropdown">18 августа</li>
+                     
+                        <ul class="calendar__time">
+                            <li class="calendar__hour page__item">00:00 - 00:59</li>
+                            <li class="calendar__hour page__item">01:00 - 01:59</li>
+                            <li class="calendar__hour page__item">02:00 - 02:59</li>
+                            <li class="calendar__hour page__item">03:00 - 03:59</li>
+                            <li class="calendar__hour page__item">04:00 - 04:59</li>
+                            <li class="calendar__hour page__item">05:00 - 05:59</li>
+                            <li class="calendar__hour page__item">06:00 - 06:59</li>
+                            <li class="calendar__hour page__item">07:00 - 07:59</li>
+                            <li class="calendar__hour page__item">08:00 - 08:59</li>
+                            <li class="calendar__hour page__item">09:00 - 09:59</li>
+                            <li class="calendar__hour page__item">10:00 - 10:59</li>
+                            <li class="calendar__hour page__item">11:00 - 11:59</li>
+                            <li class="calendar__hour page__item">12:00 - 12:59</li>
+                            <li class="calendar__hour page__item">13:00 - 13:59</li>
+                            <li class="calendar__hour page__item">14:00 - 14:59</li>
+                            <li class="calendar__hour page__item">15:00 - 15:59</li>
+                            <li class="calendar__hour page__item">16:00 - 16:59</li>
+                            <li class="calendar__hour page__item">17:00 - 17:59</li>
+                            <li class="calendar__hour page__item">18:00 - 18:59</li>
+                            <li class="calendar__hour page__item">19:00 - 19:59</li>
+                            <li class="calendar__hour page__item">20:00 - 20:59</li>
+                            <li class="calendar__hour page__item">21:00 - 21:59</li>
+                            <li class="calendar__hour page__item">22:00 - 22:59</li>
+                            <li class="calendar__hour page__item">23:00 - 23:59</li>
+                        </ul>
+                    </ul>
+                </div><!--конец calendar__container-->
+            </div>
+
+            <div class="page__main">
+                <nav class="menu">
+                    <ul class="menu__container">
+                        <li><a class="menu__item menu__item_selected page__item pointer">Работа с обращениями</a></li>
+                        <li><a class="menu__item page__item pointer">Фильтрация обращений</a></li>
+                        <li><a class="menu__item page__item pointer">Сохраненные выборки</a></li>
+                        <li><a class="menu__item page__item pointer">Выгрузка обращений</a></li>
+                        <li><a class="menu__item page__item pointer">Регистрация обращений</a></li>
+                    </ul>
+                </nav>
+
+                <h2 class="page__heading page__item">Обращения 18 августа 0:00 - 00:59</h2>
+
+                <form class="request">
+                <fieldset class="request__container">
+                    <input 
+                    type="search" 
+                    required 
+                    minlength="1"
+                    name="text" 
+                    placeholder="Введите текст"
+                    class="request__text page__item">
+
+                    <div class="request__container_min">
+                        <input 
+                        type="number" 
+                        required 
+                        min="0"
+                        name="number" 
+                        placeholder="Введите номер обращения"
+                        class="request__number page__item">
+
+                        <input 
+                        type="tel"
+                        minlength="11"
+                        required 
+                        name="phone-number" 
+                        placeholder="Введите номер телефона"
+                        class="request__phone page__item">
+                    </div>
+
+                    <div class="request__box request__item  page__item">Искать:
+                        <input class="page__check" type="radio" name="word" checked>
+                        <label for="radio" class="request__item page__item pointer">по словам</label>
+
+                        <input class="page__check" type="radio" name="phrase">
+                        <label for="radio" class="request__item page__item pointer">по фразе</label>
+                        
+                    </div>
+
+                    <button type="submit" class="request__button page__item">Найти</button>
+                </fieldset>
+                </form>
+
+                <section class="selected">
+                    <p class="selected__item page__item">Отобрано: <span class="selected__number page__item">1</span></p>
+                    <a class="selected__items page__item pointer" href="#">Перейти к отобранным</a>
+                </section>
+
+                <section class="cards">
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status page__item">Логин редактировал обращение</p>
+                            </div>
+                            
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select" checked>
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status"></p>
+                            </div>
+
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select">
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+                        
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status page__item">Логин редактирует обращение</p>
+                            </div>
+
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select" >
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+                        
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status page__item">Логин редактирует обращение</p>
+                            </div>
+
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select" >
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+                        
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status page__item">Логин редактирует обращение</p>
+                            </div>
+
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select" >
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+                        
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__container">
+                            <div class="card__headings">
+                                <time class="card__time page__item">18.08.2020 01:10:02</time>
+                                <p class="card__status page__item">Логин редактирует обращение</p>
+                            </div>
+
+                            <form class="card__tools">
+                            <input class="card__select pointer" type="checkbox" name="select" >
+                            <button class="card__edit pointer"><img class="card__icon" src="./images/edit.svg"></button>
+                            <button class="card__print pointer"><img class="card__icon" src="./images/print.png"></button>
+                            </form>
+                        </div>
+                        
+                        <article class="card__content page__item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </article>
+                    </div>
+                </section> <!--конец card-->
+
+            </div> <!--конец page__main-->
+        </section> <!--конец page__blocks-->
+
+    </div> <!--конец page-->
+
+
+</body>
+
+<script src="./index.js"></script>
+</html>

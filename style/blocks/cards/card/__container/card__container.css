@@ -1,0 +1,9 @@
+@import url(./__headings/card__headings.css);
+@import url(./__tools/card__tools.css);
+
+.card__container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}

@@ -1,0 +1,31 @@
+@import url(./__item/page__item.css);
+@import url(./__heading/page__heading.css);
+@import url(./__blocks/page__blocks.css);
+@import url(./__main/page__main.css);
+@import url(./__check/page__check.css);
+@import url(../calendar/calendar.css);
+@import url(../pointer/pointer.css);
+@import url(../header/header.css);
+@import url(../cards/cards.css);
+@import url(../menu/menu.css);
+@import url(../request/request.css);
+@import url(../selected/selected.css);
+
+.page{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

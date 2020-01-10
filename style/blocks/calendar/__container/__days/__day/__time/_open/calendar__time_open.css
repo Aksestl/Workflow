@@ -1,0 +1,6 @@
+.calendar__time.calendar__time_open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

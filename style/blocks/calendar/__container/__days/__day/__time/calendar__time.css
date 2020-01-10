@@ -1,0 +1,6 @@
+@import url(./__hour/calendar__hour.css);
+@import url(./_open/calendar__time_open.css);
+
+.calendar__time{
+    display: none;
+}
